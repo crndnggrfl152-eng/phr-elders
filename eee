@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PHR for Elders — Personal Health Records</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">PH</div>
+        <div>
+          <h1>PHR for Elders</h1>
+          <p>Personal Health Records — offline-first, caregiver-friendly</p>
+        </div>
+      </div>
+
+      <nav class="desktop">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#download">Download</a>
+        <a class="cta" href="#contact">Get Started</a>
+      </nav>
+
+      <div class="mobile-toggle">
+        <button id="menuBtn">Menu</button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu container">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#download">Download</a>
+      <a href="#contact" class="pill">Get Started</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2 class="hero-title">Keep elders' health records with them — always.</h2>
+        <p class="lead">A simple hybrid Personal Health Record (PHR) system built for low-connectivity communities: printable booklet + offline-first mobile app + community training.</p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#download">Download App</a>
+          <a class="btn ghost" href="#contact">Request Training</a>
+        </div>
+
+        <div class="small promo-text">
+          <strong>30-second promo:</strong> "Help elders carry their history — not their paperwork."
+        </div>
+      </div>
+
+      <aside class="card">
+        <div class="video-placeholder">
+          <div>
+            <div class="video-title">Promo video / demo</div>
+            <div class="small">Use this space for a 30-second demo video</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="features">
+      <h3>What makes PHR for Elders different</h3>
+      <div class="grid-3">
+        <div class="feature">
+          <h4>Hybrid: Booklet + App</h4>
+          <p class="small">Works with or without internet.</p>
+        </div>
+        <div class="feature">
+          <h4>Offline First</h4>
+          <p class="small">Designed for rural barangays and clinics.</p>
+        </div>
+        <div class="feature">
+          <h4>Community Training</h4>
+          <p class="small">Workshops for barangay health workers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <h3>How it works</h3>
+      <ol class="steps">
+        <li>
+          <h4>1. Fill the booklet</h4>
+          <p class="small">Record history, meds, allergies, and vitals.</p>
+        </li>
+        <li>
+          <h4>2. Scan or enter into app</h4>
+          <p class="small">Back up important information digitally.</p>
+        </li>
+        <li>
+          <h4>3. Sync when online</h4>
+          <p class="small">Continuity of care across providers.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="download" class="two-col">
+      <div class="card">
+        <h3>Get the app or order booklets</h3>
+        <p class="small">APK (offline-first). Printable booklet templates available.</p>
+        <div class="button-group">
+          <a class="btn primary" onclick="alert('Download placeholder — replace with real link')">Download APK</a>
+          <a class="btn ghost" onclick="alert('Order placeholder — replace with real link')">Order Booklets</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Pilot program</h3>
+        <p class="small">4-week pilots with barangay health centers.</p>
+        <a class="pill" href="#contact">Apply for pilot</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact & Support</h3>
+      <div class="two-col">
+        <form class="card" id="contactForm">
+          <div>
+            <label class="small">Name</label>
+            <input required type="text" placeholder="Your name" />
+          </div>
+          <div>
+            <label class="small">Email</label>
+            <input required type="email" placeholder="you@example.com" />
+          </div>
+          <div>
+            <label class="small">Message</label>
+            <textarea required rows="4" placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit">Send message</button>
+        </form>
+
+        <div class="card">
+          <h4>Need fast help?</h4>
+          <p class="small">Email: support@phr-elders.org</p>
+          <p class="small">Phone: +63 912 345 6789</p>
+          <p class="small">Facebook | YouTube | Messenger</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> PHR for Elders — Designed for community care
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
